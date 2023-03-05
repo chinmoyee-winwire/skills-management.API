@@ -9,7 +9,6 @@ namespace skills_management.tests.Controllers
     [TestFixture]
     public class CategoriesControllerTests
     {
-
         private readonly Mock<ICategories> _mockRepo = new Mock<ICategories>();
 
         private CategoriesController _sut;
